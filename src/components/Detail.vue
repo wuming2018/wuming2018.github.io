@@ -64,7 +64,7 @@ export default {
     },
     mounted() {
         if (this.loading)
-            document.title = "loading ---- 青枫浦 Lite";
+            document.title = "loading ---- 无名博客 Lite";
     },
     destroyed() {
         this.loading = true;

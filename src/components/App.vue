@@ -4,7 +4,7 @@
         <div class="container">
 
             <router-link :to="'/list'" class="brand">
-                青枫浦 Lite</router-link>
+                无名博客 Lite</router-link>
         </div>
     </nav>
     <section class="section" id="top">
@@ -13,7 +13,7 @@
     </section>
     <footer class="main">
         <p>This is A simple blog light style.</p>
-        <p class="less-significant">say thanks to <a href="https://github.com/rozbo">Github</a></p>
+        <p class="less-significant">say thanks to <a href="https://github.com/wuming2018">Github</a></p>
     </footer>
 </div>
 </template>
@@ -23,7 +23,7 @@ export default {
     name: 'app',
     data: function() {
         return {
-            subtitle: '青枫浦 Lite',
+            subtitle: '无名博客 Lite',
         }
     }
 }

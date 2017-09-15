@@ -1,6 +1,6 @@
 <template>
 <section class="panel features dark" id="features">
-    <h1>落月博客</h1>
+    <h1>无名博客</h1>
     <p>{{tip}}</p>
     <template v-if="!loadOk">
     <p>
@@ -48,7 +48,7 @@ export default {
         }
     },
     mounted() {
-        document.title = "青枫浦 Lite";
+        document.title = "无名博客 Lite";
     },
     created() {
         github.getList().then(
