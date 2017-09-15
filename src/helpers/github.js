@@ -4,7 +4,7 @@ import {
 import Vue from 'vue'
 const github = new EventEmitter()
 const itemsCache = Object.create(null);
-const githubURl = 'https://api.github.com/repos/wuming2018/wuming2018.github.io';
+const githubURl = 'https://api.github.com/repos/wuming2018/wuming2018.github.io/issues';
 const author='wuming2018';
 let listCache='';
 
